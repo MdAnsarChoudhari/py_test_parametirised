@@ -6,9 +6,14 @@ def add(a,b):
 
 if __name__ =="__main__":
     if len(sys.argv)==3:
-    script_name = sys.argv[0]
-    x=sys.argv[1]
-    y=sys.argv[2]
+        script_name=sys.argv[0]
+        x=sys.argv[1]
+        y=sys.argv[2]
+else:
+    script_name=sys.argv[0]
+    x=10
+    y=20
+
     
 
     print("Sum :",add(x,y))
