@@ -15,5 +15,4 @@ else:
     y=20
 
     
-
-    print("Sum :",add(x,y))
+print("Sum :",add(x,y))
